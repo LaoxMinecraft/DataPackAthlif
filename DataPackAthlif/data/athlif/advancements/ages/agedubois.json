@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crafting_table"
+        },
+        "title": {"translate":"Age du bois"},
+        "description": {"translate":"Des outils..."},
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "athlif:ages/root",
+    "rewards": {
+        "function": "athlif:ages/agedubois"
+    },
+    "criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crafting_table"
+                    }
+                ]
+            }
+        }
+    }
+}

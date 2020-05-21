@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_ingot"
+        },
+        "title": {"translate":"Apprenti"},
+        "description": {"translate":"J'apprends"},
+        "show_toast": true,
+        "announce_to_chat": true
+    },		
+    "parent": "athlif:experiences/novice",
+    "criteria": {
+        "name_tag": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

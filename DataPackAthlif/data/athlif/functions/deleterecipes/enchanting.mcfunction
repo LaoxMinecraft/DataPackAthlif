@@ -1,0 +1,1 @@
+recipe take @a minecraft:enchanting_table

@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "title": {"translate":"Maître"},
+        "description": {"translate":"Je maitrise"},
+        "show_toast": true,
+        "announce_to_chat": true
+    },		
+    "parent": "athlif:experiences/expert",
+    "criteria": {
+        "name_tag": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

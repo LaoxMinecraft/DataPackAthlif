@@ -1,0 +1,1 @@
+give @p minecraft:diamond_axe{Enchantments:[{id:"minecraft:looting",lvl:3}]} 1

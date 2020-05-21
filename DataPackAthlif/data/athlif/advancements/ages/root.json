@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_axe"
+        },
+        "title": {"translate":"Ages"},
+        "description": {"translate":"Apprentissage difficile"},
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },		
+    "rewards": {
+        "function": "athlif:ages/commencement"
+    },
+    "criteria": {
+        "overworld": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"dimension": "overworld"
+            }
+        }		
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "title": {"translate":"Expert"},
+        "description": {"translate":"J'expérimente"},
+        "show_toast": true,
+        "announce_to_chat": true
+    },		
+    "parent": "athlif:experiences/compagnon",
+    "criteria": {
+        "name_tag": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:coal"
+        },
+        "title": {"translate":"Novice"},
+        "description": {"translate":"Je découvre"},
+        "show_toast": true,
+        "announce_to_chat": true
+    },		
+    "parent": "athlif:experiences/root",
+    "criteria": {
+        "name_tag": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "title": {"translate":"Magicien"},
+        "description": {"translate":"Des outils, magiques!"},
+        "show_toast": true
+    },
+    "parent": "athlif:ages/agedudiamant",
+    "rewards": {
+        "function": "athlif:ages/agedelamagie"
+    },
+    "criteria": {
+        "trade": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:enchanted_book"
+				}
+			}
+        },
+        "maitre": {
+            "trigger": "minecraft:location",
+			"conditions": {
+                "player":  {
+					"player": {
+						"advancements": {
+							"athlif:experiences/maitre": "true"
+						}
+					}
+				}
+            }
+        }
+    }
+}

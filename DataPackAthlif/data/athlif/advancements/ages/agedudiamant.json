@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "title": {"translate":"Tailleur de pierre précieuse"},
+        "description": {"translate":"Des outils, rapides!"},
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "athlif:ages/agedufer",
+    "rewards": {
+        "function": "athlif:ages/agedudiamant"
+    },
+    "criteria": {
+        "bookshelf": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond",
+						"count": {
+							"min": 15
+						}
+                    }
+                ]
+            }
+        },
+        "expert": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":  {
+					"player": {
+						"advancements": {
+							"athlif:experiences/expert": "true"
+						}
+					}
+				}
+			}
+        }
+    }
+}

@@ -1,0 +1,4 @@
+{
+    "values" : ["athlif:timers/checknewage", 
+        "athlif:timers/checknewexperience"]
+}

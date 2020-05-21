@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stonecutter"
+        },
+        "title": {"translate":"Vrais age de pierre"},
+        "description": {"translate":"Des outils, mieux!"},
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "athlif:ages/agedubois",
+    "rewards": {
+        "function": "athlif:ages/agedepierre"
+    },
+    "criteria": {
+        "cobblestone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cobblestone",
+                        "count": {
+                            "min": 64
+                          }
+                    }
+                ]
+            }
+        },
+        "apprenti": {
+            "trigger": "minecraft:location",
+			"conditions": {
+                "player":  {
+					"player": {
+						"advancements": {
+							"athlif:experiences/apprenti": "true"
+						}
+					}
+				}
+			}
+        }
+    }
+}

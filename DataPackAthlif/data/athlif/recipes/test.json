@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:diamond_axe"
+        },
+        {
+            "item": "minecraft:emerald"
+        }   
+    ],
+    "result": {
+        "item": "minecraft:stone_pickaxe",
+        "count": 1,
+        "tag": {
+            "enchantements": [
+                {
+                    "id":"efficiency",
+                    "lvl": 1
+                }
+            ]
+        }
+    }
+}

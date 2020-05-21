@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "title": {"translate":"Compagnon"},
+        "description": {"translate":"Je comprends"},
+        "show_toast": true,
+        "announce_to_chat": true
+    },		
+    "parent": "athlif:experiences/apprenti",
+    "criteria": {
+        "name_tag": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

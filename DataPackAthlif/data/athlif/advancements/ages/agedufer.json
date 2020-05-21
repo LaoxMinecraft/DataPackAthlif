@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "title": {"translate":"Vrais age de fer"},
+        "description": {"translate":"Des outils, solides!"},
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "athlif:ages/agedepierre",
+    "rewards": {
+        "function": "athlif:ages/agedufer"
+    },
+    "criteria": {
+        "anvil": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:anvil",
+						"count": 1
+                    }
+                ]
+            }
+        },
+        "compagnon": {
+            "trigger": "minecraft:location",
+			"conditions": {
+                "player":  {
+					"player": {
+						"advancements": {
+							"athlif:experiences/compagnon": "true"
+						}
+					}
+				}
+			}
+        }
+    }
+}

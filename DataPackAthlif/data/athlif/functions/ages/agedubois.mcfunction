@@ -1,0 +1,1 @@
+tellraw @p {"color":"green","text":"Ca doit bien servir à quelque chose tout ce bois."}

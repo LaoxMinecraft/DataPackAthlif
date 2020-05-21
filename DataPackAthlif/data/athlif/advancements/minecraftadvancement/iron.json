@@ -1,0 +1,18 @@
+{
+    "parent": "athlif:ages/root",
+    "rewards": {
+		"function": "athlif:settags/deleteiron"
+    },		
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

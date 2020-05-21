@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:knowledge_book"
+        },
+        "title": {"translate":"Expériences"},
+        "description": {"translate":"Tout doit s'apprendre"},
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },		
+    "criteria": {
+        "ruined_portal": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"dimension": "overworld"
+            }
+        }		
+    }
+}
