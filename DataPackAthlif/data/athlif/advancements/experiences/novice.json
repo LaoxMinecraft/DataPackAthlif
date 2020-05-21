@@ -4,7 +4,7 @@
             "item": "minecraft:coal"
         },
         "title": {"translate":"Novice"},
-        "description": {"translate":"Je découvre"},
+        "description": {"translate":"Etre vivant"},
         "show_toast": true,
         "announce_to_chat": true
     },		

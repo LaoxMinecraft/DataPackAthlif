@@ -4,7 +4,7 @@
             "item": "minecraft:gold_ingot"
         },
         "title": {"translate":"Compagnon"},
-        "description": {"translate":"Je comprends"},
+        "description": {"translate":"Atteindre le niveau 10"},
         "show_toast": true,
         "announce_to_chat": true
     },		

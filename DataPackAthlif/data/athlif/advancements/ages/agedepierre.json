@@ -4,7 +4,7 @@
             "item": "minecraft:stonecutter"
         },
         "title": {"translate":"Vrais age de pierre"},
-        "description": {"translate":"Des outils, mieux!"},
+        "description": {"translate":"Etre apprenti et avoir un stack de pierre"},
         "show_toast": true,
         "announce_to_chat": true
     },

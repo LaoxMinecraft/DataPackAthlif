@@ -4,7 +4,7 @@
             "item": "minecraft:emerald"
         },
         "title": {"translate":"Expert"},
-        "description": {"translate":"J'expérimente"},
+        "description": {"translate":"Atteindre le niveau 20"},
         "show_toast": true,
         "announce_to_chat": true
     },		

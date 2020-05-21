@@ -4,7 +4,7 @@
             "item": "minecraft:crafting_table"
         },
         "title": {"translate":"Age du bois"},
-        "description": {"translate":"Des outils..."},
+        "description": {"translate":"Etre novice et avoir une table de craft"},
         "show_toast": true,
         "announce_to_chat": true
     },

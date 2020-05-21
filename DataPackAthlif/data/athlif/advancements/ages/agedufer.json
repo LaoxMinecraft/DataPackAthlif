@@ -4,7 +4,7 @@
             "item": "minecraft:anvil"
         },
         "title": {"translate":"Vrais age de fer"},
-        "description": {"translate":"Des outils, solides!"},
+        "description": {"translate":"Etre compagnon et avoir une enclume"},
         "show_toast": true,
         "announce_to_chat": true
     },

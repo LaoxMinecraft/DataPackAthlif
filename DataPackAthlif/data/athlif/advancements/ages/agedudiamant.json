@@ -4,7 +4,7 @@
             "item": "minecraft:diamond"
         },
         "title": {"translate":"Tailleur de pierre précieuse"},
-        "description": {"translate":"Des outils, rapides!"},
+        "description": {"translate":"Etre expert et avoir 15 diamants"},
         "show_toast": true,
         "announce_to_chat": true
     },

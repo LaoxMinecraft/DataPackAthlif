@@ -4,7 +4,7 @@
             "item": "minecraft:enchanting_table"
         },
         "title": {"translate":"Magicien"},
-        "description": {"translate":"Des outils, magiques!"},
+        "description": {"translate":"Etre maître et avoir acheté un livre enchanté"},
         "show_toast": true
     },
     "parent": "athlif:ages/agedudiamant",
